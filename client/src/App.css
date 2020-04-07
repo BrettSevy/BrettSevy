@@ -1,0 +1,40 @@
+*{
+  font-family: 'Roboto Slab', serif;
+}
+
+.jumbotron {
+  background-image: url(https://img.jakpost.net/c/2019/09/26/2019_09_26_80058_1569468462._large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  height: 500px;
+  
+  
+}
+.jumbotron h1{
+  margin-top: 20%;
+}
+
+#jumboHeader{
+  font-size: 2em;
+  color: black;
+}
+
+
+.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.display-4{
+  color: black;
+  font-weight: bold;
+  /* font-size: xx-large; */
+}
+
+button{
+  margin: 20px
+}
