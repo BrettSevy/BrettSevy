@@ -1,8 +1,8 @@
 {
-  "name": "project3",
+  "name": "hwbooksearch",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "axios": "^0.18.1",
     "bootstrap": "^4.4.1",
