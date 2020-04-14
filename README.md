@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Book Search
+<h4 align="center">React, MongoDB, Bootstrap, Node.js</h4>
 
-## Available Scripts
+![Reading List](assets/googlebooks.png)
 
-In the project directory, you can run:
+React-based Google Books Search app. uses [react-router-dom]to navigate, hide and show your React components without changing the route within Express. Using helper/util functions and React lifecycle methods to query and display books based on user searches, this is a full MERN stack application allows users to save books to a database to refer to at a later date. Connecting to a MongoDB database named googlebooks using mongoose, it create a Book schema based off user input. 
 
-### `npm start`
+Books have each of the following fields:
+- title
+- authors 
+- description 
+- image 
+- link 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Demo
 
-### `npm test`
+Heroku Deployment : [Reading List](https://limitless-woodland-99715.herokuapp.com/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technologies used
 
-### `npm run build`
+MVC design pattern: Model, View, Controller.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 align="center">
+<img alt="mern" src="assets/mern.png" width="50%">
+</h2>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [MongoDB](mongodb.com)
+- [Express.js](https://expressjs.com)
+- [React.js](https://reactjs.org/)
+- [Node.js](https://nodejs.org/en/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+- Search for books using the [Google Books API](https://developers.google.com/books/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Author
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Brett Sevy](https://github.com/BrettSevy)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
