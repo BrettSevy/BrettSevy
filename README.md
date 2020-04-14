@@ -1,5 +1,5 @@
 # Book Search
-<h4 align="center">React, MongoDB, Bootstrap, Node.js</h4>
+<h4 align="center">Full stack application</h4>
 
 ![Reading List](assets/googlebooks.png)
 
